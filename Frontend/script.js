@@ -16,7 +16,7 @@ document.getElementById('prediction-form').addEventListener('submit', async func
     });
 
     try {
-        const response = await fetch('https://car-price-prediction.onrender.com/predict', {
+        const response = await fetch('https://car-price-prdiction.onrender.com/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
